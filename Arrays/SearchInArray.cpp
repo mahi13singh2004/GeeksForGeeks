@@ -5,6 +5,5 @@ int search(int arr[], int N, int X)
                 return i;
             }
         }
-        
         return -1;   
     }
