@@ -6,7 +6,6 @@ int print2largest(int arr[], int n) {
             largest=arr[i];
         }
     }
-
     long long second_largest=-1;
     for(int i=0; i<n; i++){
         if(arr[i]>second_largest && arr[i]!=largest){
